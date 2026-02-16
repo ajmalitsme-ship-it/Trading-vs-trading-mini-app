@@ -1,8 +1,8 @@
 from pyrogram import Client, filters
 
-API_ID = 12345
-API_HASH = "your_api_hash"
-BOT_TOKEN = "your_bot_token"
+API_ID = 27806628
+API_HASH = "25d88301e886b82826a525b7cf52e090"
+BOT_TOKEN = "8314360850:AAFGX0fzrTVHXQ7A5jgXqGcjMk6DceTzILA"
 
 app = Client("miniapp_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
@@ -10,7 +10,7 @@ app = Client("miniapp_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKE
 async def start(client, message):
     web_app = {
         "text": "Open Mini App",
-        "web_app": {"url": "https://your-domain.com"}
+        "web_app": {"url": "https://trading-vs-trading-mini-app-dnke.onrender.com"}
     }
 
     await message.reply(
